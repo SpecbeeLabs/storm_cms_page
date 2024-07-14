@@ -2,3 +2,15 @@ name: Storm CMS Page
 description: Storm CMS Page
 recipes:
   - storm_cms_content_type_base
+  - storm_cms_media
+config:
+  actions:
+    metatag.settings:
+      simple_config_update:
+        entity_type_groups.node.page:
+          - basic
+          - advanced
+          - open_graph
+    workflows.workflow.editorial:
+      addNodeTypes:
+        - page
