@@ -11,6 +11,7 @@ config:
           - basic
           - advanced
           - open_graph
+          - twitter_cards
     workflows.workflow.editorial:
       addNodeTypes:
         - page
