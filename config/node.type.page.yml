@@ -32,7 +32,7 @@ third_party_settings:
     type_weight: 0
 name: Page
 type: page
-description: "Use <em>basic pages</em> for your static content, such as an 'About us' page."
+description: "Add static content, such as an 'About us' page."
 help: null
 new_revision: true
 preview_mode: 1
