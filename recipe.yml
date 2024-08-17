@@ -1,6 +1,5 @@
 name: Storm CMS Page
 description: Storm CMS Page
-  - core/recipes/editorial_workflow
   - storm_cms_content_type_base
 config:
   actions:
